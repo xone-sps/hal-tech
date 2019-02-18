@@ -229,7 +229,7 @@ export default {
       this.removeActiveClasses();
     },
     addAriaInput(n, t) {
-      thisaddAttrb(this.$refs["general-input"], n, t);
+      this.addAttrb(this.$refs["general-input"], n, t);
     },
     showPassword() {
       this.isShownPassword = !this.isShownPassword;

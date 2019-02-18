@@ -35,12 +35,12 @@
             -webkit-box-sizing: inherit;
             box-sizing: inherit;
         }</style>
-    <link href="{{ url('/') }}/static/css/app.e183ccc8d05a9f3b606930dc8dfa08ca.css" rel=stylesheet>
+    <link href="{{ url('/') }}/static/css/app.921888125290f38a4bd87bcd94539cd8.css" rel=stylesheet>
 </head>
 <body>
 <div id="app"></div>
-<script type=text/javascript src="{{ url('/') }}/static/js/manifest.2ae2e69a05c33dfc65f8.js"></script>
+<script type=text/javascript src="{{ url('/') }}/manifest.2ae2e69a05c33dfc65f8.js"></script>
 <script type=text/javascript src="{{ url('/') }}/static/js/vendor.cf08808b11c99750cae9.js"></script>
-<script type=text/javascript src="{{ url('/') }}/static/js/app.8f06e1ecdc0639ae945a.js"></script>
+<script type=text/javascript src="{{ url('/') }}/static/js/app.93857cdf58dd54e04d41.js"></script>
 </body>
 </html>

@@ -67,3 +67,13 @@
     </section>
   </div>
 </template>
+
+<style>
+.form-represent-form-input-inner{
+  background: white;
+  border-radius: 8px;
+}
+.contact-button{
+  margin-bottom: 2rem;
+}
+</style>
