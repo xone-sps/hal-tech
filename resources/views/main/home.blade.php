@@ -39,7 +39,7 @@
 </head>
 <body>
 <div id="app"></div>
-<script type=text/javascript src="{{ url('/') }}/static/manifest.2ae2e69a05c33dfc65f8.js"></script>
+<script type=text/javascript src="{{ url('/') }}/static/js/manifest.2ae2e69a05c33dfc65f8.js"></script>
 <script type=text/javascript src="{{ url('/') }}/static/js/vendor.cf08808b11c99750cae9.js"></script>
 <script type=text/javascript src="{{ url('/') }}/static/js/app.93857cdf58dd54e04d41.js"></script>
 </body>
