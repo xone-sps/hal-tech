@@ -35,7 +35,7 @@
             -webkit-box-sizing: inherit;
             box-sizing: inherit;
         }</style>
-    <link href="{{ url('/') }}/static/css/app.9380220a7dd1cb11293e2358c6805133.css" rel=stylesheet>
+    <link href="{{ url('/') }}/static/css/app.e183ccc8d05a9f3b606930dc8dfa08ca.css" rel=stylesheet>
 </head>
 <body>
 <div id="app"></div>
