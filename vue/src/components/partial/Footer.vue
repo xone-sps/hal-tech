@@ -202,11 +202,10 @@
       <hr>
       <div class="column is-12-mobile">
         <div>
-          <a class="navbar-item nav-item-menu">Our Services</a>
           
-          <a class="navbar-item nav-item-menu">Portfolio</a>
+          <a href="/portfolio" class="navbar-item nav-item-menu">Portfolio</a>
           
-          <a class="navbar-item nav-item-menu">Our Customers</a>
+          <a href="/customer" class="navbar-item nav-item-menu">Our Customers</a>
           
           <a class="navbar-item nav-item-menu">Community</a>
 

@@ -162,14 +162,14 @@
               </div>
             </div>
             <hr>
-            <li :class="isRoute('news')">
+            <li :class="isRoute('Portfolio')">
               <router-link :to="{name:'Portfolio' }" @click.native.prevent="maskClick()">
                 <i class="sidebar-icon-md material-icons" style="color: #1633ff;">collections</i>
                 <span>Our Portfolios</span>
               </router-link>
             </li>
-            <li :class="isRoute('Portfolio')">
-              <router-link :to="{name:'' }" @click.native.prevent="maskClick()">
+            <li :class="isRoute('Customer')">
+              <router-link :to="{name:'Customer' }" @click.native.prevent="maskClick()">
                 <i class="sidebar-icon-md material-icons" style="color: #1633ff;">business</i>
                 <span>Our Customers</span>
               </router-link>
