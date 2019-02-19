@@ -151,7 +151,7 @@ export default {
         formData.append("email", this.email);
         formData.append("message", this.message);
         axios
-          .post("http://localhost:8000/api/postContact", formData, {
+          .post("https://mekong.digital/api/postContact", formData, {
             headers: {
               "Content-Type": "application/json",
               "X-Requested-With": "XMLHttpRequest"

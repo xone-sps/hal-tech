@@ -41,6 +41,6 @@
 <div id="app"></div>
 <script type=text/javascript src="{{ url('/') }}/static/js/manifest.2ae2e69a05c33dfc65f8.js"></script>
 <script type=text/javascript src="{{ url('/') }}/static/js/vendor.65f8719841b44c882c3a.js"></script>
-<script type=text/javascript src="{{ url('/') }}/static/js/app.faaf59b892fbac5760af.js"></script>
+<script type=text/javascript src="{{ url('/') }}/static/js/app.bb1af355685d991f4c79.js"></script>
 </body>
 </html>

@@ -177,7 +177,7 @@
                                         <tr>
                                             <td align="left"
                                                 style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;"
-                                                class="padding">You recieve E-mail from {{ $name }}
+                                                class="padding">You recieve E-mail from {{ $name }} with email: {{ $email }}
                                             </td>
                                         </tr>
 
