@@ -27,12 +27,12 @@
                     <img class="customer-image" src="../../assets/jaol.png" alt>
                   </div>
                 </div>
-
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">
-                    <img class="customer-image" src="../../assets/jobjibjib.jpg" alt>
+                    <img class="customer-image" src="../../assets/royal.jpg" alt>
                   </div>
                 </div>
+                
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">
                     <img class="customer-image" src="../../assets/pmi.png" alt>
@@ -40,9 +40,10 @@
                 </div>
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">
-                    <img class="customer-image" src="../../assets/108service.jpg" alt>
+                    <img class="customer-image" src="../../assets/laoffer.jpg" alt>
                   </div>
                 </div>
+                
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">
                     <img class="customer-image" src="../../assets/spoon.png" alt>
@@ -54,13 +55,13 @@
               <div class="columns is-multiline is-mobile is-desktop is-tablet">
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">
-                    <img class="customer-image" src="../../assets/logo.svg" alt>
+                    <img class="customer-image" src="../../assets/jobjibjib.jpg" alt>
                   </div>
                 </div>
 
                 <div class="column is-6-mobile is-2-desktop is-6-tablet">
                   <div class="customer-div">
-                    <img class="customer-image" src="../../assets/laoffer.jpg" alt>
+                    <img class="customer-image" src="../../assets/108service.jpg" alt>
                   </div>
                 </div>
               </div>

@@ -97,6 +97,7 @@
 <script>
 export default {
   props: {
+    value: {},
     validate: {
       type: Object,
       default: () => {
@@ -149,6 +150,9 @@ export default {
     };
   },
   watch: {
+    value: function(n, o) {
+      this.inputText = n;
+    },
     "$store.state.WindowState": function(n, o) {
       if (n === "visible" && o === "hidden" && this.isInputActivated()) {
         this.isFocusedClass = "is-focused";
@@ -202,17 +206,20 @@ export default {
         this.setBlur();
       }
     },
+    setIsNotEmptyClass() {
+      this.isNotEmptyClass = this.inputText === "" ? "" : "is-not-empty";
+    },
     addActiveClasses() {
       if (this.activeInputClass === "")
         this.activeInputClass = "general-input-active";
-      this.isNotEmptyClass = this.inputText === "" ? "" : "is-not-empty";
+      this.setIsNotEmptyClass();
     },
     removeActiveClasses() {
       if (this.activeInputClass !== "") {
         this.isFocusedClass = "";
         this.activeInputClass = "";
-        this.isNotEmptyClass = this.inputText === "" ? "" : "is-not-empty";
       }
+      this.setIsNotEmptyClass();
     },
     isInputActivated() {
       let ac = document.activeElement;
@@ -236,6 +243,7 @@ export default {
       this.$refs["general-input"].focus();
     },
     emit() {
+      this.setIsNotEmptyClass();
       this.$emit("send", this.inputText);
       this.$emit("input", this.inputText);
     },

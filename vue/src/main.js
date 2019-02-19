@@ -4,9 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Input from './Input'
-import VueCarousel from 'vue-carousel';
+import VueCarousel from 'vue-carousel'
 import store from './store'
 import axios from 'axios'
+import VueSweetalert2 from 'vue-sweetalert2';
+
+Vue.use(VueSweetalert2);
 Vue.config.productionTip = false
 
 Vue.use(VueCarousel);

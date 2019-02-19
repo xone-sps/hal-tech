@@ -2,7 +2,7 @@
   <div class="section">
     <div class="container">
       <div class="has-text-centered">
-        <p class="highlight-text">Why most businesses use our services</p>
+        <p class="highlight-text">The reason that most businesses use our services</p>
         <p
           class="sub-text"
         >The reason that most businesses trust our service. And you too we will serve the best we can do.</p>

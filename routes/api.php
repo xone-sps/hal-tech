@@ -17,4 +17,4 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::post('postContact', 'HomeController@postContact');
+Route::post('/postContact', 'HomeController@postContact');
