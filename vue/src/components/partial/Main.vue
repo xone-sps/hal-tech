@@ -87,7 +87,7 @@
                                         :showPasswordButton="true"
                                         :autoComplete="'current-password'"
                                       />
-                                      
+
                                       <textarea
                                         class="textarea"
                                         v-model="message"
