@@ -188,3 +188,28 @@ button.button.contact-button {
     margin-bottom: 20px;
     margin-top: 12px;
 }
+
+.sub-text {
+    margin-bottom: 40px;
+}
+
+.blog-title {
+    font-size: 18px;
+    color: #010e28;
+    margin-top: 10px;
+}
+
+.author {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.related {
+    margin-top: 10px;
+    color: #031b4e;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

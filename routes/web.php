@@ -20,3 +20,9 @@ Route::get('/graphic', 'HomeController@index')->name('get.home.graphic')->middle
 Route::get('/consult', 'HomeController@index')->name('get.home.consult')->middleware('guest');
 Route::get('/portfolio', 'HomeController@index')->name('get.home.portfolio')->middleware('guest');
 Route::get('/customer', 'HomeController@index')->name('get.home.customer')->middleware('guest');
+
+
+Route::group(['prefix' => '/admin'], function () {
+    Route::get('/', 'AdminController@dashboard');
+    Route::get('/addblog', 'AdminController@addblog')->name('addblog');
+});

@@ -9,6 +9,8 @@ import Graphic from '../components/common/graphic/Graphic.vue'
 import Consult from '../components/common/consult/Consult.vue'
 import Portfolio from '../components/common/portfolio/Portfolio.vue'
 import Customer from '../components/common/customer/Customer.vue'
+import Blog from '../components/common/blog/Blog.vue'
+import SingleBlog from '../components/common/blog/SingleBlog.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -57,6 +59,16 @@ export default new Router({
             path: '/customer',
             name: 'Customer',
             component: Customer
+        },
+        {
+            path: '/community',
+            name: 'Community',
+            component: Blog
+        },
+        {
+            path: '/community/read',
+            name: 'Read',
+            component: SingleBlog
         }
     ]
 })
