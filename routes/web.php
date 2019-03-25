@@ -22,7 +22,7 @@ Route::get('/portfolio', 'HomeController@index')->name('get.home.portfolio')->mi
 Route::get('/customer', 'HomeController@index')->name('get.home.customer')->middleware('guest');
 
 
-Route::group(['prefix' => '/admin'], function () {
+Route::group(['prefix' => '/admin/gg'], function () {
     Route::get('/', 'AdminController@dashboard');
     Route::get('/addblog', 'AdminController@addblog')->name('addblog');
 });
