@@ -6,8 +6,8 @@
 
   <meta name="language" content="en-EN" />
   <meta name="author" content="Irfan Maulana" />
-  <title>Free Admin Dashboard Template Build with Bulma.io By Irfan Maulana</title>
-
+  <title>Mekong Digital Works</title>
+  <link rel="icon" href="https://mekong.digital/img/upload/thumbnails/0308fcb1591067ba86fd6db5f38866791549891696MDW-logo---svg.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   {{--<script src="https://cloud.tinymce.com/5/tinymce.min.js?apiKey=f1jycwpukqnh1bnpoz57vtm34wrfjx01rvdzf5pq10c9drqg"></script>--}}

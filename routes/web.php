@@ -22,7 +22,18 @@ Route::get('/portfolio', 'HomeController@index')->name('get.home.portfolio')->mi
 Route::get('/customer', 'HomeController@index')->name('get.home.customer')->middleware('guest');
 
 
+// Login and Logout
+Route::get('/admin/login', 'Auth\LoginController@getLogin')->name('getlogin');
+Route::post('/admin/login', 'Auth\LoginController@login')->name('login');
+Route::get('admin/logout', 'Auth\LoginController@logout')->name('logout');
+// End login and Logout
+
 Route::group(['prefix' => '/admin/gg'], function () {
     Route::get('/', 'AdminController@dashboard');
     Route::get('/addblog', 'AdminController@addblog')->name('addblog');
+    Route::post('/postblog', 'AdminController@postblog')->name('postblog');
+    Route::get('/allblog', 'AdminController@allblog')->name('allblog');
+    Route::get('/update/{id}', 'AdminController@getUpdate')->name('getUpdate');
+    Route::post('/update/{id}', 'AdminController@storeUpdate')->name('store.update');
+    Route::delete('/delete/{id}', 'AdminController@postDelete')->name('delete');
 });

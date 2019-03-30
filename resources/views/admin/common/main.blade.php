@@ -2,6 +2,7 @@
 <html lang="en">
 @include('admin.partial.header')
 <body>
+    @include('admin.partial.navbar')
             <div class="wrapper">
                 <div class="columns">
             @include('admin.partial.sidebar')

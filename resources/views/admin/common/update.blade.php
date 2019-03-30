@@ -2,18 +2,18 @@
 @section('content')
     <main class="column main">
         <div class="title">Add Blog</div>
-        <form action="{{ route('postblog') }}" method="post" enctype="multipart/form-data">
+        <form action="{{ route('store.update', $getBlog->id) }}" method="post" enctype="multipart/form-data">
             {{csrf_field()}}
         <div class="field">
             <div class="control">
                 <label for="title">Title</label>
-                <input type="text" name="title" class="input is-primary">
+                <input type="text" value="{{ $getBlog->title }}" name="title" class="input is-primary">
             </div>
         </div>
         <div class="field">
             <div class="control">
                 <label for="short description">Short Description</label>
-                <textarea type="text" name="description" class="textarea is-primary"></textarea>
+                <textarea type="text" name="description" class="textarea is-primary">{{ $getBlog->description }}</textarea>
             </div>
         </div>
         <div class="field">
@@ -29,8 +29,8 @@
                     <div class="control">
                         <div class="select is-primary is-fullwidth">
                             <select name="category">
-                                <option value="blog">Blog</option>
-                                <option value="activity">Activity</option>
+                                <option {{ $getBlog->category == 'blog' ? 'selected': ""}} value="blog">Blog</option>
+                                <option {{ $getBlog->category == 'activity' ? 'selected': ""}} value="activity">Activity</option>
                             </select>
                         </div>
                     </div>
@@ -42,11 +42,11 @@
             <div class="control">
                 <label for="body">Body</label>
                 <br>
-                <textarea rows="6" cols="12" class="editor" id="editor_tiny" name="body"></textarea>
+                <textarea rows="6" cols="12" class="editor" id="editor_tiny" name="body">{{ $getBlog->body }}</textarea>
             </div>
         </div>
 
-        <button class="button is-success" type="submit">Save</button>
+        <button class="button is-success" type="submit">Update</button>
 </form>
     </main>
 
