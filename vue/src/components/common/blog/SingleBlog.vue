@@ -5,7 +5,7 @@
         <div class="columns is-multiline is-mobile is-desktop">
           <div class="column is-12-mobile is-8-desktop is-offset-2-desktop">
             <div class="image is-16by9 image-featured">
-              <img :src="'http://localhost:8000/images/blog/' + data.image" alt="blog image">
+              <img :src="'https://mekong.digital/images/blog/' + data.image" alt="blog image">
             </div>
             <div class="title">
               <p
@@ -78,7 +78,7 @@ export default {
   },
   methods: {
     getData(id){
-      axios.get('http://localhost:8000/api/getData/'+ id,{
+      axios.get('https://mekong.digital/api/getData/'+ id,{
        headers: {
               "Content-Type": "application/json",
               "X-Requested-With": "XMLHttpRequest"

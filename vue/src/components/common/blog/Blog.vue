@@ -11,7 +11,7 @@
           <div v-for="(data, index) in blog" :key="index" class="column is-4-desktop is-6-tablet is-12-mobile">
             <a @click="read(data.id)">
               <div class="image is-2by1">
-                <img :src="'http://localhost:8000/images/blog/' + data.image" alt="blog image">
+                <img :src="'https://mekong.digital/images/blog/' + data.image" alt="blog image">
               </div>
               <p class="blog-title">{{ data.title }}</p>
             </a>
@@ -43,7 +43,7 @@ export default {
   },
   methods: {
     getBlog(){
-      axios.get('http://localhost:8000/api/getBlog', {
+      axios.get('https://mekong.digital/api/getBlog', {
         headers: {
               "Content-Type": "application/json",
               "X-Requested-With": "XMLHttpRequest"
