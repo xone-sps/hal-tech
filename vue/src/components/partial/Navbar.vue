@@ -232,7 +232,7 @@
           
           <a href="/customer" class="navbar-item nav-item-menu">Our Customers</a>
           
-          <a class="navbar-item nav-item-menu">Community</a>
+          <a href="/community" class="navbar-item nav-item-menu">Community</a>
         </div>
 
         <div class="navbar-end menu">

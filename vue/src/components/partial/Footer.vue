@@ -213,14 +213,9 @@
         </div>
       </div>
       <div class="column">
-        <p class="subscribe">Subscribe to our newsletter</p>
+        <!-- <p class="subscribe">Subscribe to our newsletter</p> -->
         <div class="field has-addons">
-          <div class="control">
-            <input class="input is-large" type="text" placeholder="Your Email">
-          </div>
-          <div class="control">
-            <a class="button is-info is-large">Subscribe</a>
-          </div>
+         
         </div>
       </div>
     </div>

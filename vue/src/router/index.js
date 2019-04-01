@@ -66,7 +66,7 @@ export default new Router({
             component: Blog
         },
         {
-            path: '/community/read',
+            path: '/community/read/:id',
             name: 'Read',
             component: SingleBlog
         }

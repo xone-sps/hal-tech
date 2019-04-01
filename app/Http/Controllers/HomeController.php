@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Contact;
 use Mail;
+use App\Blog;
 
 class HomeController extends Controller
 {
@@ -34,5 +35,17 @@ class HomeController extends Controller
             $message->subject('Message from Mekong Digital Works\'s customers');
         });
         return response()->json(["data"=> "Successfully"]);
+    }
+    public function getBlog(){
+        $blog = Blog::where('category', 'blog')->get();
+        $event = Blog::where('category', 'activity')->get();
+        $related = Blog::all();
+        return response()->json(["data"=> $blog, "event"=> $event, 'related'=>$related]);
+        
+    }
+
+    public function getData($id){
+        $data = Blog::find($id);
+        return response()->json(["data" => $data]);
     }
 }

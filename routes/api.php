@@ -18,3 +18,5 @@ use Illuminate\Http\Request;
 // });
 
 Route::post('/postContact', 'HomeController@postContact');
+Route::get('/getBlog', 'HomeController@getBlog');
+Route::get('/getData/{id}', 'HomeController@getData');

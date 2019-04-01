@@ -5,40 +5,39 @@
         <div class="columns is-multiline is-mobile is-desktop">
           <div class="column is-12-mobile is-8-desktop is-offset-2-desktop">
             <div class="image is-16by9 image-featured">
-              <img src="../../../assets/blog2.png" alt>
+              <img :src="'http://localhost:8000/images/blog/' + data.image" alt="blog image">
             </div>
             <div class="title">
               <p
                 class="blog-title"
-              >ທ່ານເຄີຍສັງເກດບໍ່ ວ່າຄົນເຮົານິເກັ່ງບໍ່ຄືກັນ ທັງໆທີ່ຮຽນບ່ອນດຽວກັນ ອາຈານຄົນດຽວກັນ ສະພາບແວດລ້ອມຄືກັນ.</p>
+              >{{ data.title }}</p>
             </div>
             <div class="columns is-multiline is-mobile is-desktop">
               <div class="column is-6-mobile">
-                <p class="author">Posted by Phoud Sisuphanh</p>
+                <p class="author">Author: Phoud Sisuphanh</p>
               </div>
-              <div class="column is-6-mobile">
-                <a class="fb">
-                  <i class="fa fa-facebook-square"></i>
-                </a>
-              </div>
+              
             </div>
-
-            <div class="text-area">
-              <p class="text">
-                ທ່ານເຄີຍສັງເກດບໍ່ ວ່າຄົນເຮົານິເກັ່ງບໍ່ຄືກັນ ທັງໆທີ່ຮຽນບ່ອນດຽວກັນ ອາຈານຄົນດຽວກັນ ສະພາບແວດລ້ອມຄືກັນ. ແຕ່ເປັນຫຍັງຄົນບາງຄົນຈຶ່ງເກັ່ງໄປໝົດທຸກຢ່າງ(ຄໍາວ່າເກັ່ງກະມີຫຼາຍນິຍາມ ຂື້ນກັບແຕ່ລະຄົນ. ບາງຄົນກະຂໍແຕ່ໄດ້ຄະແນນດີກະວ່າເກັ່ງ ບາງຄົນກະບໍ່ໄດ້ຄະແນນດີ ແຕ່ເກັ່ງກວ່າກະມີ ບາງຄົນກະທັງສອງ, ບາງຄົນກະບໍ່ໄດ້ຮຽນໃນໂຮງຮຽນສໍ້າກະເກັ່ງ ຍ້ອນຮຽນດ້ວຍຕົນເອງ. ເກັ່ງໃນທີ່ນີ້ແມ່ນເກັ່ງອີ່ຫຍັງກະໄດ້ເດີ ອາດບໍ່ແມ່ນເລື່ອງຮຽນສະເໝີໄປ ເລື່ອງສິລະປະ ຫຼືອື່ນໆກະຖືວ່າເກັ່ງໄດ້). ກະເຈົ້າພາກັນຮຽນແນວໃດ? ຫຼື ພັດທະນາຕົນເອງແນວໃດ? ບາງຄົນອາດຈະວ່າ ເກັ່ງແທ້ ກະເຈົ້າເກີດມາສະໝອງດີ! ແມ່ນຫວາ? ຂ້າພະເຈົ້າບໍ່ເສື່ອປານໃດ ວ່າຄົນເກັ່ງເກີດມາສະໝອງດີກວ່າຄົນປົກກະຕິ. ທີ່ຈິງແລ້ວເຮົາເກີດມາລ້ວນແລ້ວແຕ່ມີສໍ່າກັນ ສິ່ງທີ່ຕ່າງແມ່ນການເສື່ອມຕໍ່ຈຸດຂອງແຕ່ລະຄົນ( Connecting the dots) ຫຼື ເສັ້ນທາງໃນການພັດທະນາຕົນເອງຕ່າງກັນສື່ໆ. ບາງຄົນກະເວົ້າວ່າ ເກັ່ງແທ້ ແນວກະເຈົ້າມີເວລາ! ດຽວໆ ເຮົາມີເວລາ 24 ຊົ່ວໂມງສໍ່າກັນຢູ່ນາ ບໍ່ແມ່ນຫວາ? ເອີໜ້າຄິດເນາະ. ລະກະມີຫຼາຍໆເຫດຜົນ... ບໍ່ຂໍເວົ້າໝົດ. ຖ້າທ່ານເປັນຄົນສາຍພັດທະນາຕົນເອງຢູ່ແລ້ວ ທ່ານອາດຈະເຂົ້າໃຈ ແຕ່ໃຜທີ່ຍັງບໍ່ໄດ້ພັດທະນາຕົນເອງເລີຍ ແຕ່ຢາກພັດທະນາຕົນເອງກະລອງອ່ານຕໍ່ເດີ.
-                ທີ່ຈິງແລ້ວ ບຸກຄົນເຫຼົ່ານັ້ນ ທີ່ທ່ານເອີ້ນກະເຈົ້າວ່າຄົນເກັ່ງຫັ້ນນະ ກະເຈົ້າມີເບື້ອງຫຼັງມາບໍ່ແມ່ນງ່າຍ ທ່ານອາດຈະຄິດບໍ່ເຖິງວ່າກະເຈົ້າເຮັດຫຍັງມາແດ່ ສິ່ງທີ່ທ່ານເຫັນຄື ຄວາມສໍາເລັດຂອງກະເຈົ້ເທົ່ານັ້ນ ແຕ່ທ່ານເຄີຍຖາມກະເຈົ້າບໍ່ວ່າ ກ່ອນຈະມາຮອດຈຸດນັ້ນໄດ້ ກະເຈົ້າພາກັນເຮັດແນວໃດ? ແນ່ນອນ ກະເຈົ້າເຮັດຕ່າງແນ່ນອນ ຖ້າກະເຈົ້າເຮັດຄືຄົນທົ່ວໄປເຮັດ ກະເຈົ້າກະຈະເປັນຄືຄົນທົ່ວໄປ.
-                ຂ້າພະເຈົ້າກະເປັນຄົນໜຶ່ງທີ່ມັກພັດທະນາຕົນເອງຕະຫຼອດ ຫຼາຍໆດ້ານ ບໍ່ວ່າຈະເປັນເລື່ອງຮຽນ, ເລື່ອງການລ່າທຶນ, ເລື່ອງທັກສະການເຂົ້າສັງຄົມ, ເລື່ອງທຸລະກິດ ແລະອື່ນໆ. ແລະຕົນເອງຍັງໄດ້ມີໂອກາດຢູ່ໃນສະພາບແວດລ້ອມກັບຄົນເກັ່ງຫຼາຍຄົນ ຈຶ່ງພໍຮູ້ໜ້ອຍໜຶ່ງວ່າກະເຈົ້າພາກັນເຮັດແນວໃດຈຶ່ງເກັ່ງ.
-              </p>
+            <div class="text">
+              <div v-html="data.body" class="text-area">
+              
             </div>
+            </div>
+            
             <br>
-            <div class="columns">
-              <div class="column"></div>
-              <div class="column has-text-right">
+            <div class="columns is-multiline is-mobile is-desktop">
+              <div class="column is-6-mobile">
+                <div class="sharing">
+                  <p class="has-text-right">Sharing</p>
+                </div>
+                
+                </div>
+              <div class="column is-6-mobile has-text-left">
+                
                 <a class="fb">
                   <i class="fa fa-facebook-square"></i>
                 </a>
               </div>
-              <div class="column has-text-left"></div>
             </div>
             <hr>
             <div class="author-area">
@@ -49,9 +48,12 @@
                   </div>
                 </div>
                 <div class="column is-12-mobile is-9-desktop has-text-left">
-                  <p class="written">Written by</p>
+                  <div class="author-info">
+                    <p class="written">Written by</p>
                   <p class="author-name">Phoud Sisuphanh</p>
                   <p class="position">Co-founder & Director of Mekong Digital Works</p>
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -64,9 +66,33 @@
 </template>
 <script>
 import Related from "./Related";
+import axios from 'axios'
 export default {
   components: {
     Related
+  },
+  data() {
+    return {
+      data:{}
+    }
+  },
+  methods: {
+    getData(id){
+      axios.get('http://localhost:8000/api/getData/'+ id,{
+       headers: {
+              "Content-Type": "application/json",
+              "X-Requested-With": "XMLHttpRequest"
+       }
+            }).then(res=>{
+                this.data = res.data.data
+                if(!this.data){
+                  location.href = '/'
+                }
+            })
+    }
+  },
+  created(){
+    this.getData(this.$route.params.id)
   }
 };
 </script>
@@ -115,6 +141,12 @@ export default {
 .author-image {
   width: 150px;
   height: 150px;
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+}
+.sharing{
+  margin-top: 10px;
 }
 .image-profile {
   display: inline-block;
@@ -169,6 +201,43 @@ export default {
   transform: translateY(-1.32px);
   color: rgba(0, 0, 0, 0.54) !important;
   fill: rgba(0, 0, 0, 0.54) !important;
+}
+@media only screen and (max-width: 600px) {
+  .author-image {
+  max-width: 150px;;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.author-info{
+  text-align: center;
+  margin-top: 20px;
+}
+
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  
+ .author-info{
+  text-align: center;
+  margin-top: 20px;
+}
+.author-image {
+  max-width: 150px;;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.author-image {
+  max-width: 150px;;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
 }
 </style>
 
