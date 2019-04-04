@@ -11,16 +11,16 @@
 |
 */
 
-Route::get('/', 'HomeController@index')->name('get.home.index')->middleware('guest');
-Route::get('/web', 'HomeController@index')->name('get.home.web')->middleware('guest');
-Route::get('/windows', 'HomeController@index')->name('get.home.windows')->middleware('guest');
-Route::get('/mobileapp', 'HomeController@index')->name('get.home.mobileapp')->middleware('guest');
-Route::get('/maintenance', 'HomeController@index')->name('get.home.maintenance')->middleware('guest');
-Route::get('/graphic', 'HomeController@index')->name('get.home.graphic')->middleware('guest');
-Route::get('/consult', 'HomeController@index')->name('get.home.consult')->middleware('guest');
-Route::get('/portfolio', 'HomeController@index')->name('get.home.portfolio')->middleware('guest');
-Route::get('/customer', 'HomeController@index')->name('get.home.customer')->middleware('guest');
-Route::get('/community', 'HomeController@index')->name('get.home.community')->middleware('guest');
+Route::get('/', 'HomeController@index')->name('get.home.index');
+Route::get('/web', 'HomeController@index')->name('get.home.web');
+Route::get('/windows', 'HomeController@index')->name('get.home.windows');
+Route::get('/mobileapp', 'HomeController@index')->name('get.home.mobileapp');
+Route::get('/maintenance', 'HomeController@index')->name('get.home.maintenance');
+Route::get('/graphic', 'HomeController@index')->name('get.home.graphic');
+Route::get('/consult', 'HomeController@index')->name('get.home.consult');
+Route::get('/portfolio', 'HomeController@index')->name('get.home.portfolio');
+Route::get('/customer', 'HomeController@index')->name('get.home.customer');
+Route::get('/community', 'HomeController@index')->name('get.home.community');
 
 
 // Login and Logout
