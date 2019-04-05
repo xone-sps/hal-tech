@@ -23,8 +23,24 @@
                   </a>
                     
                 </div>
-            
             </slide>
+            <slide>
+            <div class="has-text-centered">
+                  <a href="https://jaol.org/" target="_blank">
+                    <img src="../../assets/portfolio/jaol.png" alt>
+                  </a>
+                    
+                </div>
+            </slide>
+            <slide>
+            <div class="has-text-centered">
+                  <a href="http://refer.108.jobs/" target="_blank">
+                    <img src="../../assets/portfolio/refer.png" alt>
+                  </a>
+                    
+                </div>
+            </slide>
+
             <slide>
                 <div class="has-text-centered">
                   <a href="http://pmimfi.com/" target="_blank">

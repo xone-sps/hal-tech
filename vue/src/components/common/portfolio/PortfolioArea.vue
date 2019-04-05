@@ -24,6 +24,34 @@
         </div>
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
           <div class="image-container">
+            <img class="image" src="../../../assets/portfolio/jaol.png" alt>
+            <a href="https://jaol.org/" target="_blank">
+              <div class="after has-text-centered">
+                <div class="view">
+                  <p class="view-text">Japan Alumni Of Laos</p>
+                  <hr class="hr">
+                  <p class="view-text" href="#">View</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-12-mobile is-6-tablet">
+          <div class="image-container">
+            <img class="image" src="../../../assets/portfolio/refer.png" alt>
+            <a href="http://refer.108.jobs/" target="_blank">
+              <div class="after has-text-centered">
+                <div class="view">
+                  <p class="view-text">108 Refer</p>
+                  <hr class="hr">
+                  <p class="view-text" href="#">View</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-12-mobile is-6-tablet">
+          <div class="image-container">
             <img class="image" src="../../../assets/portfolio/pmi.png" alt>
             <a href="http://pmimfi.com/" target="_blank">
               <div class="after has-text-centered">
