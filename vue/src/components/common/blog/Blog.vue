@@ -51,9 +51,7 @@ export default {
       }).then(res =>{
         
         this.blog = res.data.data
-        if(!res.data.data[0]){
-          location.href = '/'
-        }
+        console.log(this.blog)
         
       })
     },
@@ -70,7 +68,7 @@ export default {
 <style scoped>
 @font-face {
   font-family: "noto-medium";
-  src: url(../../../../css/fonts/NotoSansLaoUI-Medium.ttf) format("truetype");
+  src: url(https://mekong.digital/fonts/NotoSansLaoUI-Medium.ttf) format("truetype");
 }
 .section {
   font-family: "Open Sans", sans-serif, "noto-medium";

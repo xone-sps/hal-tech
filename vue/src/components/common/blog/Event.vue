@@ -64,7 +64,7 @@ export default {
 <style scoped>
 @font-face {
   font-family: "noto-medium";
-  src: url(../../../../css/fonts/NotoSansLaoUI-Medium.ttf) format("truetype");
+  src: url(https://mekong.digital/fonts/NotoSansLaoUI-Medium.ttf) format("truetype");
 }
 .section {
   font-family: "Open Sans", sans-serif, "noto-medium";

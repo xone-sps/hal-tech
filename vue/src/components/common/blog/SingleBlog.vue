@@ -85,9 +85,6 @@ export default {
        }
             }).then(res=>{
                 this.data = res.data.data
-                if(!this.data){
-                  location.href = '/'
-                }
             })
     }
   },
@@ -99,12 +96,12 @@ export default {
 <style>
 @font-face {
   font-family: "noto-regular";
-  src: url(../../../../css/fonts/NotoSansLaoUI-Light.ttf) format("truetype");
+  src: url(https://mekong.digital/fonts/NotoSansLaoUI-Light.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "noto-medium";
-  src: url(../../../../css/fonts/NotoSansLaoUI-Medium.ttf) format("truetype");
+  src: url(https://mekong.digital/fonts/NotoSansLaoUI-Medium.ttf) format("truetype");
 }
 .section {
   font-family: "Open Sans", sans-serif, "noto-regular";
