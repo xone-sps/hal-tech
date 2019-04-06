@@ -21,6 +21,7 @@ Route::get('/consult', 'HomeController@index')->name('get.home.consult');
 Route::get('/portfolio', 'HomeController@index')->name('get.home.portfolio');
 Route::get('/customer', 'HomeController@index')->name('get.home.customer');
 Route::get('/community', 'HomeController@index')->name('get.home.community');
+Route::get('/community/read/{id}', 'HomeController@index')->name('get.home.community.read');
 
 
 // Login and Logout

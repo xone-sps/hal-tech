@@ -13,7 +13,7 @@ Vue.use(VueSweetalert2);
 Vue.config.productionTip = false
 
 Vue.use(VueCarousel);
-Vue.use(axios)
+Vue.use(axios);
 require('../css/bulma.css');
 require('../css/style.css');
 require('../css/form.css');
