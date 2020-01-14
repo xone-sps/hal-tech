@@ -4,7 +4,8 @@
       <div class="navbar-brand">
         <a href="/">
           <div class="logo">
-            <svg
+            <img src="../../assets/logo.png" alt="">
+            <!-- <svg
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +15,7 @@
               width="65.459px"
               height="54.499px"
               viewBox="0 0 69.459 58.499"
-              enable-background="new 0 0 69.459 58.499"
+              enable-background="new 0 0 69.459 58.499" 
               xml:space="preserve"
             >
               <g id="XMLID_51_">
@@ -95,7 +96,7 @@
                   height="2.785"
                 ></rect>
               </g>
-            </svg>
+            </svg> -->
           </div>
         </a>
         <a
@@ -291,3 +292,16 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.logo{
+    max-height: 200px;
+    max-width: 200px;
+    width: 96px;
+}
+@media(max-width: 720px){
+.logo{
+    width: 74px;
+}
+}
+</style>

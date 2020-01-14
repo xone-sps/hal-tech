@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="hero is-nav-color background">
-      <div class="hero-body">
+      <div class="hero-body main">
         <div class="container">
           <div class="columns">
             <div class="column">
@@ -258,6 +258,9 @@ export default {
   background-image: url("../../assets/background.svg");
   background-size: cover;
 }
-.is-alert {
-}
+
+  .hero-body.main{
+padding: 8px 8px;
+  }
+
 </style>

@@ -14,14 +14,16 @@ class CreateBlogsTable extends Migration
     public function up()
     {
         Schema::create('blogs', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
             $table->string('title');
             $table->string('description');
             $table->string('image');
-            $table->string('category');
+            $table->string('slug');
+            $table->bigInteger('cate_id')->unsigned();
+            $table->foreign('cate_id')->references('id')->on('blog_categories')->onUpdate('cascade')->onDelete('cascade');
             $table->text('body');
             $table->timestamps();
-        });
+        }); 
     }
 
     /**
@@ -31,6 +33,9 @@ class CreateBlogsTable extends Migration
      */
     public function down()
     {
+        Schema::table('blogs', function ($table) {
+            $table->dropForeign('cate_id');
+        });
         Schema::dropIfExists('blogs');
     }
 }

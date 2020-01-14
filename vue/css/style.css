@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 .is-nav-color {
-    background-color: #303fd9;
+    background-color: #1d2833;
 }
 
 .nav-item-menu {
@@ -98,7 +98,7 @@ button.button.contact-button {
 }
 
 .customer-text {
-    opacity: .4;
+padding: 18px;
 }
 
 .m-b-50 {
@@ -166,7 +166,7 @@ button.button.contact-button {
 }
 
 .dropdown-trigger {
-    margin-top: 18px;
+    margin-top: 30px;
 }
 
 .dropdown-menu {
@@ -212,4 +212,14 @@ button.button.contact-button {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+@media(max-width:720px){
+    .feature-text {
+
+        font-size: 25px;
+        letter-spacing: -1.55px;
+        line-height: 1.18;
+        font-weight: bold;
+
+    }
 }
