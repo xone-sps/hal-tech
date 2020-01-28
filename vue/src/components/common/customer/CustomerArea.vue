@@ -37,12 +37,9 @@
 <script>
 import img1 from "../../../assets/logo.svg";
 import img2 from "../../../assets/jaol.png";
-import img3 from "../../../assets/pmi.png";
-import img4 from "../../../assets/spoon.png";
 import img5 from "../../../assets/jobjibjib.jpg";
 import img6 from "../../../assets/108service.jpg";
 import img7 from "../../../assets/laoffer.jpg";
-import img8 from "../../../assets/royal.jpg";
 import { Carousel, Slide } from "vue-carousel";
 export default {
   data() {
@@ -62,18 +59,18 @@ export default {
           link: "http://jaol.org"
         },
         {
-          image: img3,
-          name: "Phetoulay Microfinance Institution",
+          image: 'https://hal-logistics.la/logo.png',
+          name: "Hal Logistics",
           description:
-            "Phetoulay Microfinance Institution is a microfinance Company based in Vientiane Capital, Laos.",
-          link: "http://pmimfi.com/"
+          "Hal Logistics is a transportation Company in Laos.",
+          link: "http://hal-logistics.la/"
         },
         {
-          image: img4,
-          name: "Spoon",
+          image: 'https://hubbo.la/assets/images/logo.png?vb798c43b4cf7cca02febff7cf3e4eb0e',
+          name: "Hubbo",
           description:
-            "Spoon is an online platform where people can find food, restaurants and learn how to cook.",
-          link: "http://www.spoon.la/"
+            "Hubbo is an online platform to communicate between organize, group and volunteer.",
+          link: "http://www.hubbo.la/"
         },
         {
           image: img5,
@@ -97,11 +94,11 @@ export default {
           link: "https://laoffer.la/"
         },
         {
-          image: img8,
-          name: "Royal Supermarket",
+          image: 'http://134.209.111.10/assets/images/AEON_Logo_512x512_jpg7e6a2afe551e067a75fafacf47a6d981a523bc8516f2fce34cbcb07b350dd166_site_info_.jpg?v5cf8bb1c8d65a0efe8fbde8acb357de8',
+          name: "Aeon Lao",
           description:
-            "Royal Supermarket is a big supermarket based in Vientiane Capital, Laos. They sell thousand of products on the online platform we had built for them.",
-          link: "http://www.royalexpress.la/"
+            "Aeon ແມ່ນບໍລິສັດເຊົ່າສິນເຊື່ອໃນປະເທດລາວ",
+          link: "http://www.aeonlao.com.la/"
         }
       ]
     };
@@ -120,18 +117,25 @@ export default {
   font-size: 18px;
   color: #010e28;
   font-weight: bold;
+  text-align: center;
 }
 .company-description {
   margin-top: 25px;
+  font-size: 15px;
 }
 .company-text {
-  font-size: 20px;
+  font-size: 15px;
 }
 .is-seemore {
   margin-top: 15px;
 }
 .company-image {
-  width: 420px;
-  height: 310px;
+    max-width: 320px;
+    max-height: 200px;
+    border: 1px solid #1d2833;
+    width: auto;
+    height: auto;
+    padding: 40px;
+    border-radius: 4px;
 }
 </style>

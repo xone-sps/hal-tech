@@ -9,7 +9,7 @@
       </div>
       <div class="columns is-mobile highlight-icon is-multiline is-desktop is-tablet">
         <div class="column is-4-desktop is-12-moblie is-6-tablet">
-          <div class="image-container">
+          <div class="image-container card">
             <img class="image" src="../../../assets/portfolio/108job.png" alt>
             <a href="https://108.jobs/" target="_blank">
               <div class="after has-text-centered">
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
+          <div class="image-container card">
             <img class="image" src="../../../assets/portfolio/jaol.png" alt>
             <a href="https://jaol.org/" target="_blank">
               <div class="after has-text-centered">
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
+          <div class="image-container card">
             <img class="image" src="../../../assets/portfolio/refer.png" alt>
             <a href="http://refer.108.jobs/" target="_blank">
               <div class="after has-text-centered">
@@ -51,12 +51,12 @@
           </div>
         </div>
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
-            <img class="image" src="../../../assets/portfolio/pmi.png" alt>
+          <div class="image-container card">
+            <img class="image" src="../../../assets/portfolio/aeonlao.png" alt>
             <a href="http://pmimfi.com/" target="_blank">
               <div class="after has-text-centered">
-                <div class="view">
-                  <p class="view-text">Phetoulay Microfinance Institution</p>
+                <div class="view"> 
+                  <p class="view-text">Aeon Lao</p>
                   <hr class="hr">
                   <p class="view-text" href="#">View</p>
                 </div>
@@ -65,7 +65,7 @@
           </div>
         </div>
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
+          <div class="image-container card">
             <img class="image" src="../../../assets/portfolio/108service.png">
             <a href="http://108service.la/" target="_blank">
               <div class="after has-text-centered">
@@ -78,14 +78,13 @@
             </a>
           </div>
         </div>
-
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
-            <img class="image" src="../../../assets/portfolio/spoon.png">
-            <a href="http://www.spoon.la/" target="_blank">
+          <div class="image-container card">
+              <img src="../../../assets/portfolio/hubbo.png" alt>
+            <a href="http://hubbo.la/" target="_blank">
               <div class="after has-text-centered">
                 <div class="view">
-                  <p class="view-text">Spoon</p>
+                  <p class="view-text">Hubbo</p>
                   <hr class="hr">
                   <p class="view-text" href="#">View</p>
                 </div>
@@ -95,22 +94,7 @@
         </div>
 
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
-            <img class="image" src="../../../assets/portfolio/bizhub.png">
-            <a href="http://bizhub.la/" target="_blank">
-              <div class="after has-text-centered">
-                <div class="view">
-                  <p class="view-text">Bizhub</p>
-                  <hr class="hr">
-                  <p class="view-text" href="#">View</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
+          <div class="image-container card">
             <img class="image" src="../../../assets/portfolio/jibjib.png">
             <a href="http://www.jobjibjib.la/" target="_blank">
               <div class="after has-text-centered">
@@ -125,7 +109,7 @@
         </div>
 
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
+          <div class="image-container card">
             <img class="image" src="../../../assets/portfolio/laoffer.png">
             <a href="https://laoffer.la/" target="_blank">
               <div class="after has-text-centered">
@@ -140,12 +124,12 @@
         </div>
 
         <div class="column is-4-desktop is-12-mobile is-6-tablet">
-          <div class="image-container">
-            <img class="image" src="../../../assets/portfolio/royal.png">
-            <a href="http://www.royalexpress.la/" target="_blank">
+          <div class="image-container card">
+             <img src="../../../assets/portfolio/hal-logistics.png" alt>
+            <a href="http://www.hal-logistics.la/" target="_blank">
               <div class="after has-text-centered">
                 <div class="view">
-                  <p class="view-text">Rayal Supermarket</p>
+                  <p class="view-text">Hal Logistics</p>
                   <hr class="hr">
                   <p class="view-text" href="#">View</p>
                 </div>
@@ -153,8 +137,6 @@
             </a>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>

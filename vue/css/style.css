@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@font-face {
+    font-family: 'boonhome-regular';
+    src: url(../fonts/BoonHome-400.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'boonhome-bold';
+    src: url(../fonts/BoonHome-700.ttf) format("truetype");
+}
+
+body, button, input, select, textarea {
+
+  font-family:'boonhome-regular', 'Google Sans', arial, serif, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', 'boonhome-bold' !important;
+    font-size: normal;
+}
 .is-nav-color {
     background-color: #1d2833;
 }
@@ -26,8 +44,8 @@ a.navbar-item.is-active,
 
 .feature-text {
     color: white;
-    font-size: 50px;
-    letter-spacing: -1.55px;
+    font-size: 32px;
+    letter-spacing: 0;
     line-height: 1.18;
     font-weight: bold;
     margin-top: 30px;
@@ -46,20 +64,20 @@ a.navbar-item.is-active,
 }
 
 .get-started {
-    color: #0069ff;
+    color: #1d2833;
     display: inline-block;
     font-size: 25px;
     font-weight: 400;
 }
 
 button.button.contact-button {
-    background-color: #1633ff;
+    background-color: #1d2833;
     margin-top: 20px;
 }
 
 .button.is-info:hover,
 .button.is-info.is-hovered {
-    background-color: #1633ff;
+    background-color: #013f96;
     border-color: transparent;
     color: #fff;
 }
@@ -144,11 +162,13 @@ padding: 18px;
 }
 
 .footer-logo {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .fb {
     margin-top: 20px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .subscribe {
@@ -178,7 +198,10 @@ padding: 18px;
     font-size: 16px;
     color: rgba(3, 27, 78, .7);
 }
-
+.service-item:hover{
+    color:rgba(3, 27, 78, .7);
+}
+ 
 .service-sub-title {
     font-size: 14px;
     opacity: .7;
@@ -216,8 +239,8 @@ padding: 18px;
 @media(max-width:720px){
     .feature-text {
 
-        font-size: 25px;
-        letter-spacing: -1.55px;
+        font-size: 24px;
+        letter-spacing: 0;
         line-height: 1.18;
         font-weight: bold;
 

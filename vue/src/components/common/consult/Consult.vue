@@ -8,7 +8,7 @@
               <h1 class="feature-text">Do you want to innovate your business or adopt new technologies?</h1>
               <p
                 class="sub-feature"
-              >You come the right place! Mekong Digital Works provides a <strong style="color: white; font-size: 20px;">Free</strong> consultancy on innovation and technologies adoption.</p>
+              >You come the right place! Hal Tech provides a <strong style="color: white; font-size: 20px;">Free</strong> consultancy on innovation and technologies adoption.</p>
             </div>
             <div class="column">
               <div>
